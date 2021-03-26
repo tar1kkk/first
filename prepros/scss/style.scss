@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-color: #000;
+	width:100%;
+	display: flex;
+	text-transform: uppercase;
+}
+.logo{
+	color:white;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 56px;
+	margin-left: 12%;
+
+}
+nav{
+	color:white;
+	margin-top:56px;
+	margin-left: 29%;
+}
+.topnav a{
+	color:#fff;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.topnav a:hover{
+	border-bottom: 3px solid yellow;
+	transition-delay: 0.1s;
+}
+.topnav .icon{
+	display: none;
+}
+main{
+	
+}
+.main__welcome{
+	text-align: center;
+	padding-top: 250px;
+	background-color: black;
+	height: 300px;
+
+}
+.main__welcome p{
+	color: white;
+}
+.mycompany{
+	color: yellow;
+
+}
+.main__welcome h1{
+	font-size: 42px;
+	text-align:center;
+	color: white;
+}
+.man__img{
+	padding: 60px 0 0 60px;
+	height: 400px;
+}
+.block{
+	display: flex;
+}
+.text{
+	margin: 200px ;
+	margin-top: 100px;
+}
+.text ul{
+	margin-top: 40px; 
+	margin-left: 20px;
+}
+.block h2{
+	width: 70px;
+	text-align: center;
+	margin-left: 250px;
+}
+.text p{
+	margin-top: 20px;
+	font-size: 20px;
+}
+.main__team{
+	background-color: black;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.main__team h2{
+	font-size: 44px;
+	text-align: center;
+	padding-top: 125px;
+	padding-bottom: 30px;
+
+}
+.line{
+	width: 100px;
+	height: 3px;
+	background-color: yellow;
+	position: relative;
+	margin-left: 47%;
+	margin-bottom: 140px;
+}
+.photo{
+	margin-top: 150px;
+	height: 125px;
+	width: 125px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.team__cards{
+	display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+}.about__position{
+	margin:57px 18px 221px 18px;
+}
+.card__services{
+	display: grid;
+	text-align: center;
+	grid-template-columns:auto auto auto auto;
+}
+.main__services h2{
+	font-size: 44px;
+	text-align: center;
+	padding-top: 125px;
+	padding-bottom: 30px;
+}
+.main__services {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+.main__services p{
+	margin-bottom: 60px;
+}
+.main__services h4{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.card__service p{
+	margin-bottom: 100px;
+}
+.main__clients{
+	background-color: black;
+	color: white;
+	padding: 125px 0px 200px 0px;
+	text-align: center;
+}
+.main__clients h2{
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+.main__clients img{
+	margin-left: 30px;
+}
+input{
+	width: 360px;
+	height: 40px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	margin-right: 28px;
+	margin-top: 5px;
+}
+.main__contacts{
+	width: 753px;
+	margin: 0 auto;
+	color: #636363;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.red{
+	color: red;
+}
+.forms__input{
+	display: flex;
+}
+textarea{
+	width: 100%;
+	height: 160px;
+}
+input,textarea{
+	border: 1px solid #9999;
+}
+button{
+	color: white;
+	background-color: #fcac45;
+	width: 165px;
+	height: 40px;
+	border: none;
+	margin-top: 20px;
+}
+.main__text h2{
+	text-align: center;
+	font-size: 44px;
+	margin-bottom: 30px;
+	margin-top: 100px;
+}
+.main__text p{
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+}
